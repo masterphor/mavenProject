@@ -14,7 +14,7 @@ public class TestScore extends TestCase{
 	}
 	
 	public void test_gradeA(){
-		Assert.assertEquals(Score.grade(80), "Score : 80 You Grade : A");
+		Assert.assertEquals(Score.grade(80), "Score : 80 You Grade : B+");
 		Assert.assertEquals(Score.grade(79), "Score : 79 You Grade : B+");
 	}
 	
@@ -24,7 +24,7 @@ public class TestScore extends TestCase{
 	}
 	
 	public void test_gradeB(){
-		Assert.assertEquals(Score.grade(70), "Score : 70 You Grade : B");
+		Assert.assertEquals(Score.grade(70), "Score : 70 You Grade : C+");
 		Assert.assertEquals(Score.grade(69), "Score : 69 You Grade : C+");
 	}
 	
